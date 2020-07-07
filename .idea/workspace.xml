@@ -2,10 +2,509 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a155f782-9c6b-4f43-abea-58e99f562fe7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/pal/springcloud/OrderMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/pal/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/pal/springcloud/controller/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/pal/springcloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/pal/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/pal/springcloud/PaymentMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/pal/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/pal/springcloud/PaymentMain9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/pal/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/pal/springcloud/MainApp8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/pal/springcloud/controllerFlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/SpringCloud.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/pom文件+脑图/SpringCloud 第二季2020.03.05.mmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/pom文件+脑图/pom依赖.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Alibaba的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Bus的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Eureka的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Feign的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Hystrix的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/Ribbon的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloud.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的31 - 副本.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/SpringCloudStream的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/commons模块.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/commons模块2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/consul的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/gateway的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/order模块1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/order模块2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/order模块3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/order模块4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/order模块5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sc的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/seala的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sentinel的的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/sleuth的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/springconfig的9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/zookeeper的1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/zookeeper的2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/zookeeper的3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/zookeeper的4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/zookeeper的5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/zookeeper的6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud附件/图片/zookeeper的7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,22 +602,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud附件" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pal.springcloud.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\cloudalibaba-config-nacos-client3377\src\main\resources" />
-      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\cloudalibaba-consumer-nacos-order83\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\springcloud附件" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020" />
-      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\cloud-stream-rabbitmq-consumer8803\src\main" />
-      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\cloud-stream-rabbitmq-consumer8803\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\cloudalibaba-consumer-nacos-order84\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\cloudalibaba-provider-payment9003\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\cloud2020\cloudalibaba-sentinel-service8401\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,15 +630,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfigClientMain3377">
-    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.OrderMain84">
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center-3344" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pal.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.ConfigCenterMain3344" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,6 +648,13 @@
     <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client-3366" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.ConfigClientMain3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.EurekaMain7001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,6 +676,19 @@
     <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-hystrix-dashboard9001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pal.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.MainApp8401" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,15 +727,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderNacosMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloudalibaba-consumer-nacos-order83" />
+    <configuration name="OrderMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order84" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pal.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.OrderNacosMain83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.OrderMain84" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,6 +801,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.PaymentMain9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.PaymentMain9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-provider8801" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.springcloud.StreamMQMain8801" />
@@ -320,20 +850,24 @@
       <item itemvalue="Spring Boot.StreamMQMain8802" />
       <item itemvalue="Spring Boot.StreamMQMain8803" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
-      <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+      <item itemvalue="Spring Boot.GatewayMain9527" />
+      <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.PaymentMain9001" />
       <item itemvalue="Spring Boot.PaymentMain9002" />
-      <item itemvalue="Spring Boot.OrderNacosMain83" />
-      <item itemvalue="Spring Boot.GatewayMain9527" />
       <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+      <item itemvalue="Spring Boot.MainApp8401" />
+      <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+      <item itemvalue="Spring Boot.PaymentMain9003" />
+      <item itemvalue="Spring Boot.PaymentMain9004" />
+      <item itemvalue="Spring Boot.OrderMain84" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderMain84" />
+        <item itemvalue="Spring Boot.MainApp8401" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
         <item itemvalue="Spring Boot.PaymentMain9002" />
         <item itemvalue="Spring Boot.PaymentMain9001" />
-        <item itemvalue="Spring Boot.OrderNacosMain83" />
-        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +934,10 @@
       <workItem from="1593502776878" duration="28000" />
       <workItem from="1593502807633" duration="2191000" />
       <workItem from="1593572405577" duration="11835000" />
-      <workItem from="1593586399077" duration="6227000" />
+      <workItem from="1593586399077" duration="7270000" />
+      <workItem from="1593604037772" duration="74000" />
+      <workItem from="1594011400345" duration="5588000" />
+      <workItem from="1594114853853" duration="6933000" />
     </task>
     <servers />
   </component>
@@ -414,22 +951,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="180" key="#Project_Structure" timestamp="1593502799893">
+    <state x="1032" y="180" key="#Project_Structure" timestamp="1594012916579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="180" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1593502799893" />
-    <state x="714" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585118520293">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="714" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585118520293" />
+    <state x="1032" y="180" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594012916579" />
     <state x="1171" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593501520618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1171" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593501520618" />
-    <state x="1247" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1593577774200">
+    <state x="1247" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1594119019975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1247" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593577774200" />
+    <state x="1247" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594119019975" />
     <state x="1088" y="386" width="704" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593579480212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -442,38 +975,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="418" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585644858566" />
-    <state width="619" height="231" key="GridCell.Tab.0.bottom" timestamp="1593593731872">
+    <state width="619" height="231" key="GridCell.Tab.0.bottom" timestamp="1594126398631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731872" />
-    <state width="619" height="231" key="GridCell.Tab.0.center" timestamp="1593593731872">
+    <state width="619" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398631" />
+    <state width="619" height="231" key="GridCell.Tab.0.center" timestamp="1594126398630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731872" />
-    <state width="619" height="231" key="GridCell.Tab.0.left" timestamp="1593593731872">
+    <state width="619" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398630" />
+    <state width="619" height="231" key="GridCell.Tab.0.left" timestamp="1594126398630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731872" />
-    <state width="619" height="231" key="GridCell.Tab.0.right" timestamp="1593593731872">
+    <state width="619" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398630" />
+    <state width="619" height="231" key="GridCell.Tab.0.right" timestamp="1594126398630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731872" />
-    <state width="619" height="231" key="GridCell.Tab.1.bottom" timestamp="1593593731873">
+    <state width="619" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398630" />
+    <state width="619" height="231" key="GridCell.Tab.1.bottom" timestamp="1594126398631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731873" />
-    <state width="619" height="231" key="GridCell.Tab.1.center" timestamp="1593593731872">
+    <state width="619" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398631" />
+    <state width="619" height="231" key="GridCell.Tab.1.center" timestamp="1594126398631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731872" />
-    <state width="619" height="231" key="GridCell.Tab.1.left" timestamp="1593593731872">
+    <state width="619" height="231" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398631" />
+    <state width="619" height="231" key="GridCell.Tab.1.left" timestamp="1594126398631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731872" />
-    <state width="619" height="231" key="GridCell.Tab.1.right" timestamp="1593593731873">
+    <state width="619" height="231" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398631" />
+    <state width="619" height="231" key="GridCell.Tab.1.right" timestamp="1594126398631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="231" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593593731873" />
+    <state width="619" height="231" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594126398631" />
     <state width="619" height="210" key="GridCell.Tab.2.bottom" timestamp="1593348283092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -490,22 +1023,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="619" height="210" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593348283092" />
-    <state x="972" y="178" key="Maven.ArtifactSearchDialog" timestamp="1585056436154">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="972" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585056436154" />
     <state x="682" y="321" key="NewModule_or_Project.wizard" timestamp="1593502185041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="321" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593502185041" />
-    <state x="451" y="195" key="SettingsEditor" timestamp="1593585539529">
+    <state x="451" y="195" key="SettingsEditor" timestamp="1594115522834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="451" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593585539529" />
-    <state x="669" y="393" width="1251" height="560" key="new project wizard" timestamp="1593587552447">
+    <state x="451" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594115522834" />
+    <state x="669" y="393" width="1251" height="560" key="new project wizard" timestamp="1594115663418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="393" width="1251" height="560" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593587552447" />
+    <state x="669" y="393" width="1251" height="560" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594115663418" />
     <state x="1105" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1593502522576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
